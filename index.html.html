@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cheet-sheet.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>HTML Cheet Sheet</title>
+</head>
+
+<body style="background-color: #163156;">
+
+    <!---      Navigation Start      ----->
+
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item" active>
+                        <a class="nav-link" onclick="showSection('html5')">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="showSection('css')">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="showSection('bootstrap')">BOOTSTRAP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---      Navigation End      ----->
+
+    <!---      HTML Start      ----->
+
+    <div class="section active" id="html5">
+        <br>
+        <hr>
+        <br>
+        <div class="container">
+            <div class="cheat-sheet">
+                <h1 style="text-align: center;">HTML Tags and Explanations</h1>
+
+                <section>
+                    <h2>Text Tags</h2>
+                    <div class="a">
+                        <p>&lt;p&gt; - Defines a paragraph.</p>
+                        <p>&lt;b&gt; - Bold text.</p>
+                        <p>&lt;i&gt; - Italic text.</p>
+                        <p>&lt;u&gt; - Underlined text.</p>
+                        <p>&lt;strong&gt; - Strong importance (typically bold).</p>
+                        <p>&lt;em&gt; - Emphasized text (typically italic).</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Headings</h3>
+                    <div class="a">
+                        <p>&lt;h1&gt; to &lt;h6&gt; - Headings of various levels.</p>
+                    </div>
+
+                    <h3>Links</h3>
+                    <div class="a">
+                        <p>&lt;a&gt; - Creates a hyperlink.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Ordered Lists</h3>
+                    <div class="a">
+                        <p>&lt;ol&gt; - Defines an ordered (numbered) list.</p>
+                        <p>&lt;li&gt; - Defines a list item within an ordered list.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Unordered Lists</h3>
+                    <div class="a">
+                        <p>&lt;ul&gt; - Defines an unordered (bulleted) list.</p>
+                        <p>&lt;li&gt; - Defines a list item within an unordered list.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Definition Lists</h3>
+                    <div class="a">
+                        <p>&lt;dl&gt; - Defines a definition list.</p>
+                        <p>&lt;dt&gt; - Defines a term in a definition list.</p>
+                        <p>&lt;dd&gt; - Defines a description in a definition list.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Text Formatting</h2>
+                    <div class="a">
+                        <p>&lt;mark&gt; - Highlights text for reference.</p>
+                        <p>&lt;sub&gt; - Defines subscript text.</p>
+                        <p>&lt;sup&gt; - Defines superscript text.</p>
+                        <p>&lt;abbr&gt; - Defines an abbreviation or acronym.</p>
+                        <p>&lt;code&gt; - Indicates inline code snippets.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Images</h2>
+                    <div class="a">
+                        <p>&lt;img&gt; - Embeds images in the document.</p>
+                        <p>&lt;figure&gt; - Groups images and captions.</p>
+                        <p>&lt;figcaption&gt; - Provides a caption for a &lt;figure&gt;.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Audio and Video</h2>
+                    <div class="a">
+                        <p>&lt;audio&gt; - Embeds audio content.</p>
+                        <p>&lt;video&gt; - Embeds video content.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Forms</h2>
+                    <div class="a">
+                        <p>&lt;form&gt; - Defines an HTML form.</p>
+                        <p>&lt;input&gt; - Creates form input elements.</p>
+                        <p>&lt;label&gt; - Labels form elements.</p>
+                        <p>&lt;textarea&gt; - Defines a multiline text input field.</p>
+                        <p>&lt;select&gt; - Creates a dropdown list.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Tables</h2>
+                    <div class="a">
+                        <p>&lt;table&gt; - Defines a table.</p>
+                        <p>&lt;tr&gt; - Defines a table row.</p>
+                        <p>&lt;th&gt; - Defines a table header cell.</p>
+                        <p>&lt;td&gt; - Defines a table data cell.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Divisions and Sections</h2>
+                    <div class="a">
+                        <p>&lt;div&gt; - Defines a generic division or container.</p>
+                        <p>&lt;section&gt; - Represents a section in an HTML document.</p>
+                        <p>&lt;article&gt; - Represents an independent piece of content.</p>
+                        <p>&lt;aside&gt; - Represents an independent piece of content.</p>
+                        <p>&lt;header&gt; - Represents an independent piece of content.</p>
+                        <p>&lt;footer&gt; - Represents an independent piece of content.</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!---     HTML End      ----->
+
+
+
+    <!---      CSS Start      ----->
+    <div class="section" id="css">
+        <br>
+        <hr>
+        <br>
+        <div class="container" id="css">
+            <div class="cheat-sheet">
+                <h1 style="text-align: center;">Important Elements of css</h1>
+                <section>
+                    <h2>Text Tags</h2>
+                    <div class="a">
+                        <p>&lt;p&gt; - Defines a paragraph.</p>
+                        <p>&lt;b&gt; - Bold text.</p>
+                        <p>&lt;i&gt; - Italic text.</p>
+                        <p>&lt;u&gt; - Underlined text.</p>
+                        <p>&lt;strong&gt; - Strong importance (typically bold).</p>
+                        <p>&lt;em&gt; - Emphasized text (typically italic).</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <!---      CSS End      ----->
+
+
+
+    <!---      BOOTSTRAP Start      ----->
+    <div class="section" id="bootstrap">
+        <br>
+        <hr>
+        <br>
+        <div class="container">
+            <div class="cheat-sheet">
+                <h1 style="text-align: center;">Common and Important Classes of BootStrap</h1>
+
+                <section>
+                    <h2>Spacing</h2>
+                    <div class="a">
+                        <p><b>Property</b>
+                        <ul>
+                            <li> <span> m </span> - for classes that set margin.</li>
+                            <li> <span> p </span> - for classes that set padding.</li>
+                        </ul>
+                        </p>
+                        <p> <b>Sides</b>
+                        <ul>
+                            <li><span> t </span> for top.</li>
+                            <li><span> b </span> for bottom.</li>
+                            <li><span> l </span> for left.</li>
+                            <li><span> r </span> for right.</li>
+                            <li><span> x </span> for x-axis (left and right).</li>
+                            <li><span> y </span> for y-axix (top and bottom).</li>
+                            <li><span> black </span> for all sides.</li>
+                        </ul>
+                        </p>
+                        <p> <b>Sizes</b>
+                        <ul>
+                            <li><span> 0 </span> for top.</li>
+                            <li><span> 1 </span> for bottom.</li>
+                            <li><span> 2 </span> for left.</li>
+                            <li><span> 3 </span> for right.</li>
+                            <li><span> 4 </span> for x-axis (left and right).</li>
+                            <li><span> 5 </span> for y-axix (top and bottom).</li>
+                        </ul>
+                        </p>
+                        <p> <b>Here are some examples how to use it.</b>
+                            <ul>
+                                <li><span> my-4 </span> for marging on top and bottom.</li>
+                                <li><span> px-3 </span> for padding on let and right.</li>
+                                <li><span> ml-5 </span> for marging on left.</li>
+                                <li><span> p-2 </span> for padding on all side.</li>
+                            </ul>
+                            </p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Centring</h2>
+                    <div class="a">
+                        <p>Its work only on block level contents.
+                        <ul>
+                            <li><span> mx-auto </span> its make content into the horizontally center.</li>
+                            <li><span> my-auto </span> its make content into the vertically center.</li>
+
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Flex</h2>
+                    <div class="a">
+                        <p>All the class mention below will work after writting <span>d-flex</span> (display:flex).
+                        <ul>
+                            <li><span> flex-row </span> All the content will come into a row.</li>
+                            <li><span> flex-column </span> All the content will come into a column.</li>
+                            <li><span> flex-row-reverse </span> All the content will come into a row from the end (right).</li>
+                            <li><span> flex-column-reverse </span> All the content will come into a column from the the (bottom).</li>
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Justify Content</h2>
+                    <div class="a">
+                        <p>All the class mention below will work after writting <span>d-flex</span> (display:flex) x-axis. 
+                        <ul>
+                            <li><span> justify-content-start </span>Its make all the content display from the left.</li>
+                            <li><span> justify-content-end </span>Its make all the content display from the right.</li>
+                            <li><span> justify-content-center </span>Its make all the content display in the center (left and right).</li>
+                            <li><span> justify-content-between </span></li>
+                            <li><span> justify-content-around </span>Its give all the conttent same width make them to center.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Align</h2>
+                    <div class="a">
+                        <p>All the class mention below will work after writting <span>d-flex</span> (display:flex) y-axis.
+                        <ul>
+                            <li><span> align-items-start </span> All the content will come into a top.</li>
+                            <li><span> align-items-end </span> All the content will come into a bottom.</li>
+                            <li><span> align-items-center </span> All the content will come into the center (top - bottom).</li>
+                            <li><span> align-items-stretch </span> Its make the item to take the full height.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2>carousel (slideshow)</h2>
+                    <div class="a">
+                        <p>The carousel is a slideshow for cycling through a series of content
+                        <ul>
+                            <li><span> carouselExampleSlidesOnly </span> It show Only Slides.</li>
+                            <li><span> Note : There are intresting things in it learn from Bootstrap Official website.</span> <a href="https://getbootstrap.com/docs/4.0/components/carousel/">Go To Bootstrap</a></li>
+
+                        </ul>
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!---      BOOTSTRAP end      ----->
+
+    <!---      Footer end      ----->
+
+    <hr>
+    <div class="footer my-5">
+        <div class="copy-right">
+            <div class="copy-cont">
+                <div class="p1">&copy; ABDURRAB KHAN, All Rights Reserved. Designed With HTML , CSS And Bootstrap</div>
+            </div>
+        </div>
+    </div>
+
+    <!---      Footer end      ----->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll(".section");
+            sections.forEach((section) => {
+                section.classList.remove("active");
+            });
+
+            // Show the specified section
+            const activeSection = document.getElementById(sectionId);
+            activeSection.classList.add("active");
+        }
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

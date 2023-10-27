@@ -1,0 +1,83 @@
+body{
+    padding: 1rem;
+}
+
+/* Hide all sections by default */
+
+h1,h2,h3{
+    color: #ffff;
+}
+.section {
+    display: none;
+}
+
+/* Show the active section */
+.active {
+    display: block;
+}
+
+section{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #1F4172;
+    border-radius: 5px;
+ 
+}
+
+p{
+    color: rgb(53, 52, 52);
+}
+
+.a{
+    background-color: rgb(207, 211, 211);
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.nav{
+    background-color: #1F4172;
+}
+
+.nav a{
+    color: #ffff;
+}
+
+
+/*Footer Start*/
+.copy-right{
+    color:white;
+    text-align: center;
+}
+
+.copy-right .p2{
+    float: right;
+
+}
+
+span{
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
