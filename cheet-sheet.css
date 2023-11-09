@@ -7,14 +7,6 @@ body{
 h1,h2,h3{
     color: #ffff;
 }
-.section {
-    display: none;
-}
-
-/* Show the active section */
-.active {
-    display: block;
-}
 
 section{
     margin: 1rem;
